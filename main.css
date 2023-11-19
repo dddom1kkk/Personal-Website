@@ -1,3 +1,40 @@
+@font-face {
+    font-family: main;
+    src: url(font/Agrandir/Agrandir-GrandHeavy.otf);
+}
 #back-color {
     background-color: #ffffff;
+}
+#nav {
+    font-family: main;
+    font-size: 14px;
+    font-weight: bolder;
+    display: table;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+#navBio {
+    display: table-cell;
+    text-align: center;
+}
+#navExp {
+    display: table-cell;
+    text-align: center;
+}
+#navProj {
+    display: table-cell;
+    text-align: center;
+}
+
+#me {
+    width: 90%;
+    border:1px solid #231F20;
+}
+#me {
+    padding: 20px;
+    font-family: main;
+    font-size: 56px;
 }
