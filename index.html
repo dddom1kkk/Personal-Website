@@ -10,35 +10,21 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="main.js"></script>
     <title>About Me</title>
   </head>
   <body id="back-color">
     <div class="container-fluid" id="nav">
       <div class="container" id="navBio">
-        <a
-          class="scrollbutton"
-          data-scroll="#somethingonpage"
-          onchange="scrollto(this);"
-          >BIO</a
-        >
+        <a onclick="navigateTo('me')">BIO</a>
       </div>
 
       <div class="container" id="navExp">
-        <a
-          class="scrollbutton"
-          data-scroll="#somethingonpage"
-          onchange="scrollto(this);"
-          >EXPERIENCE</a
-        >
+        <a onclick="navigateTo('me')">EXPERIENCE</a>
       </div>
 
       <div class="container" id="navProj">
-        <a
-          class="scrollbutton"
-          data-scroll="#somethingonpage"
-          onchange="scrollto(this);"
-          >PROJECTS</a
-        >
+        <a onclick="navigateTo('me')">PROJECTS</a>
       </div>
     </div>
 
@@ -60,16 +46,26 @@
 
           <div class="row" id="meLinks">
             <div id="meGit">
-              <img src="img/github.png" alt="My GitHub :)" />
+              <a target="_blank" href="https://github.com/dddom1kkk"
+                ><img src="img/github.png" alt="My GitHub :)"
+              /></a>
             </div>
             <div id="meLin">
-              <img src="img/linkedin.png" alt="My LinkedIn :)" />
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/damir-zharikessov-824771238/"
+                ><img src="img/linkedin.png" alt="My LinkedIn :)"
+              /></a>
             </div>
             <div id="meIns">
-              <img src="img/insta.png" alt="My Instagram :)" />
+              <a target="_blank" href="https://www.instagram.com/dom1kzh/"
+                ><img src="img/insta.png" alt="My Instagram :)"
+              /></a>
             </div>
             <div id="meX">
-              <img src="img/x.png" alt="My X :)" />
+              <a target="_blank" href="https://twitter.com/kysponii"
+                ><img src="img/x.png" alt="My X :)"
+              /></a>
             </div>
           </div>
         </div>
