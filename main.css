@@ -86,3 +86,54 @@
     width: 35px;
     margin-bottom: 15px;
 }
+
+#hob {
+    margin-top: 100px;
+    width: 100%;
+}
+#hobHead {
+    font-family: main;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#hobStu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobStuImg img {
+    width: 325px;
+    height: auto;
+}
+#hobSpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobSpoImg img {
+    width: 400px;
+    height: auto;
+}
+#hobAct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobActM {
+    width: 350px;
+    height: auto;
+}
+#hobActB {
+    margin-top: 45px;
+    width: 150px;
+    height: auto;
+}
