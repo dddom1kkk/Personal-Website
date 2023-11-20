@@ -96,7 +96,10 @@ html {
 #hobHead {
     font-family: main;
     margin-left: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+#hobHead h1 {
+    font-size: 60px;
 }
 #hobStu {
     display: flex;
@@ -138,4 +141,74 @@ html {
     margin-top: 45px;
     width: 150px;
     height: auto;
+}
+
+#exp {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+#expHead {
+    font-family: main;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+#expHead h1 {
+    font-size: 60px;
+}
+#expTit {
+    font-family: main;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#expTit h2 {
+    font-size: 35px;
+}
+#expDes {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+#expDes1 h4 {
+    font-family: main;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#expDes1 p {
+    margin: 0;
+    font-family: paragraph;
+    font-size: 20px;
+}
+#expDes2 {
+    text-align: right;
+}
+#expDes2 p {
+    margin: 0;
+    font-family: paragraph;
+    font-size: 20px;
+}
+#expBen {
+    margin-left: 40px;
+}
+#expObl h4 {
+    font-family: main;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#expObl p {
+    margin: 0;
+    font-family: paragraph;
+    font-size: 20px;
+}
+#expTak {
+    text-align: right;
+}
+#expTak h4 {
+    font-family: main;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#expTak p {
+    margin: 0;
+    font-family: paragraph;
+    font-size: 20px;
 }
