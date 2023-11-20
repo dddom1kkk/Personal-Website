@@ -1,13 +1,17 @@
 @font-face {
     font-family: main;
-    src: url(font/Agrandir/Agrandir-GrandHeavy.otf);
+    src: url(font/Agrandir/Agrandir-TextBold.otf);
+}
+@font-face {
+    font-family: paragraph;
+    src: url(font/Agrandir/Agrandir-Regular.otf);
 }
 #back-color {
     background-color: #ffffff;
 }
 #nav {
     font-family: main;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: bolder;
     display: table;
     margin-top: 70px;
@@ -30,11 +34,106 @@
 }
 
 #me {
-    width: 90%;
+    width: 85%;
     border:1px solid #231F20;
-}
-#me {
     padding: 20px;
+}
+#meHead {
     font-family: main;
-    font-size: 56px;
+    font-size: 75px;
+}
+#meName {
+    line-height: 90px;
+    margin-left: 40px;
+}
+#mePar {
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+#meDes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 28px;
+    position: relative;
+    line-height: 1.5;
+}
+#meImg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 100%; */
+}
+#meIns img {
+    width: 35px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+#meGit img {
+    width: 35px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+#meLin img {
+    width: 35px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+#meX img {
+    width: 35px;
+    margin-bottom: 15px;
+}
+
+#hob {
+    margin-top: 100px;
+    width: 100%;
+}
+#hobHead {
+    font-family: main;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#hobStu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobStuImg img {
+    width: 325px;
+    height: auto;
+}
+#hobSpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobSpoImg img {
+    width: 400px;
+    height: auto;
+}
+#hobAct {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: paragraph;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#hobActM {
+    width: 350px;
+    height: auto;
+}
+#hobActB {
+    margin-top: 45px;
+    width: 150px;
+    height: auto;
 }
