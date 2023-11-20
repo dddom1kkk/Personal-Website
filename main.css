@@ -212,3 +212,49 @@ html {
     font-family: paragraph;
     font-size: 20px;
 }
+
+#proj {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+#projHead {
+    font-family: main;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+#projHead h1 {
+    font-size: 60px;
+}
+#projEmer {
+    font-family: paragraph;
+}
+#projEmer img {
+    margin-bottom: 20px;
+    height: 250px;
+}
+#projEmer p {
+    font-size: 15px;
+}
+#projAi {
+    font-family: paragraph;
+}
+#projAi img {
+    margin-bottom: 20px;
+    height: 250px;
+    width: auto;
+}
+#projAi p {
+    font-size: 15px;
+}
+#projTra {
+    font-family: paragraph;
+}
+#projTra img {
+    margin-bottom: 20px;
+    height: 250px;
+    width: auto;
+}
+#projTra p {
+    font-size: 15px;
+}
