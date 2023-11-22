@@ -27,13 +27,25 @@ html {
     display: table-cell;
     text-align: center;
 }
+#navBio a {
+    cursor: pointer;
+    pointer-events: auto;
+}
 #navExp {
     display: table-cell;
     text-align: center;
 }
+#navExp a {
+    cursor: pointer;
+    pointer-events: auto;
+}
 #navProj {
     display: table-cell;
     text-align: center;
+}
+#navProj a {
+    cursor: pointer;
+    pointer-events: auto;
 }
 
 #me {
