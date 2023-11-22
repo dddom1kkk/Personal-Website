@@ -217,44 +217,38 @@ html {
     margin-top: 200px;
     margin-bottom: 100px;
     width: 100%;
+    height: 500px;
 }
 #projHead {
     font-family: main;
     margin-left: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 #projHead h1 {
     font-size: 60px;
 }
-#projEmer {
+#projPro {
     font-family: paragraph;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#projEmer img {
+#projImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
-    height: 250px;
 }
-#projEmer p {
-    font-size: 15px;
+#projImgCen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#projAi {
-    font-family: paragraph;
-}
-#projAi img {
-    margin-bottom: 20px;
-    height: 250px;
-    width: auto;
-}
-#projAi p {
-    font-size: 15px;
-}
-#projTra {
-    font-family: paragraph;
-}
-#projTra img {
-    margin-bottom: 20px;
-    height: 250px;
-    width: auto;
-}
-#projTra p {
-    font-size: 15px;
+#projDes {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
